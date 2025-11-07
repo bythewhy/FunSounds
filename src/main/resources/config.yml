@@ -1,0 +1,19 @@
+messages:
+  onlyplayer: '&8[§x§D§B§6§B§1§6⚡&8] Команда доступна только в игре.'
+  usg: '&8[§x§D§B§6§B§1§6⚡&8] &7Используйте: /funsounds toggle'
+  enable: '&8[§x§D§B§6§B§1§6⚡&8] &7- &aЗвуки включены.'
+  disable: '&8[§x§D§B§6§B§1§6⚡&8] &7- &cЗвуки отключены'
+
+sounds:
+  enabled: true
+  bow_hit:
+    sounds:
+      - ENTITY_GENERIC_EXPLODE
+    volume: 5.0
+    pitch: 2.0
+  critical:
+    sounds:
+      - ENTITY_EXPERIENCE_ORB_PICKUP
+      - entity_wither_ambient
+    volume: 5.0
+    pitch: 2.0

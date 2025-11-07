@@ -1,0 +1,14 @@
+name: FunSounds
+version: '0.1'
+main: funpay.neverlos3.funSounds.FunSounds
+api-version: '1.16'
+author: 'neverlos3'
+description: 'Криты с FunTime - https://funpay.com/users/8628865/, https://github.com/bythewhy/FunSounds'
+commands:
+  funsounds:
+    description: меин смд - плагин делал https://funpay.com/users/8628865/
+    usage: /<command>
+permissions:
+  funsounds.adm:
+    description: Админ право - плагин делал https://funpay.com/users/8628865/
+    default: op
